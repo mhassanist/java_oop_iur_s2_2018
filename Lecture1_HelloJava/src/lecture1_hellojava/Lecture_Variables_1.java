@@ -18,15 +18,27 @@ public class Lecture_Variables_1 {
          short s;
          int i;
          long l;
-         float f;
+         float floatNumber;
          double d;
          
          b= true;
          b= false;
-         
+         System.out.println(b);
+
          by = 127;
         
          c = 'b';
+         c = 48; //unicode
+         System.out.println(c);
+         
+         
+         c = 'أ';
+         System.out.println(c);
+
+         floatNumber = 24.8f;
+         System.out.println(floatNumber);
+
+         
          
      }
 }
