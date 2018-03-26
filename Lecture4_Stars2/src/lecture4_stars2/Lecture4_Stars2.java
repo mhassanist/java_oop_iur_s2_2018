@@ -10,7 +10,10 @@ public class Lecture4_Stars2 {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter lines");
         lines = s.nextInt();
-        
+
+        for (int i=5, j=13; lines>9 ;i++,j-- ) {
+            
+        }
         
         for (int i = 0; i < lines; i++) {
             //Spaces loop
