@@ -5,13 +5,28 @@
 */
 package lecture5_methods;
 
-/**
- *
- * @author MSAUDI
- */
+import java.awt.Color;
+
+
+
 public class Lecture5_Methods {
     
-    
+    private  class Car {
+        private String model;
+        private String make;
+        private Color color;
+        double  maxSpeed;
+        boolean hasNitrousEngine;
+        
+        
+        public void start(){
+            
+        }
+        
+        public void stop(){
+            
+        }
+    }
     public static void main(String[] args) {
         
         int[] numbers = {2,3,4,5,5,56};
@@ -48,8 +63,8 @@ public class Lecture5_Methods {
     }
     /*
     public static double sum2Numbers(int a, int b){
-        double result = a + b;
-        return  result;
+    double result = a + b;
+    return  result;
     }*/
     public static int sum2Numbers(int a){
         int result = a;
