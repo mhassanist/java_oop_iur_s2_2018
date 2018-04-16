@@ -24,7 +24,7 @@ public class FulltimeEmployee extends BaseEmployee{
     @Override
     public String getEmployeeInfo(){
         String data = name +" - " + basicSalary;
-        return  data;  
+        return  data;
     }
     
     public static double getTax() {

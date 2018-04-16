@@ -3,24 +3,32 @@
 * To change this template file, choose Tools | Templates
 * and open the template in the editor.
 */
-package lecture7_simpleemployeefinance2;
+package lecture6_simpleemployeefinance;
 
 /**
  *
  * @author MSAUDI
  */
-public abstract class BaseEmployee {
+//Parent class / Super class / Base class
+public class Employee {
     protected String name;
     protected String email;
     protected String phoneNumber;
+    protected String nationalId;
     
     
-    public String getName() {
-        return name;
+    public double   calculateSalary(){
+        
+        return 0.0;
     }
-    public void setName(String name) {
-        this.name = name;
+    
+    public String getnationalId() {
+        return nationalId;
     }
+    public void setNationalId(String nationalId) {
+        this.nationalId = nationalId;
+    }
+    
     public String getEmail() {
         return email;
     }
@@ -33,8 +41,11 @@ public abstract class BaseEmployee {
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return this.name;
+    }
     
-    public abstract String getEmployeeInfo();
-    
-    public abstract double calculateSalary();
 }
