@@ -22,7 +22,7 @@ public class WaffleCity {
         
         o1.addItem(j2);
         
-        ArrayList<Item> allitems = o1.getOrderItems();
+        ArrayList<MenuItem> allitems = o1.getOrderItems();
         
         for (int i = 0; i < allitems.size(); i++) {
             System.out.println(allitems.get(i).getPrice());

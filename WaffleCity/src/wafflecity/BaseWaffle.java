@@ -9,6 +9,6 @@ package wafflecity;
  *
  * @author MSAUDI
  */
-public class BaseWaffle extends Item{
+public class BaseWaffle extends MenuItem{
     
 }

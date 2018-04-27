@@ -10,8 +10,9 @@ package wafflecity;
  * @author MSAUDI
  */
 public class NormalWaffle extends BaseWaffle{
-    String type;
-
+    // every mix of gradient we give it trendy name 
+    // Icilimo, Lovers, Reddy , Banana .. custom Waffle
+    String type; 
     public String getType() {
         return type;
     }

@@ -12,17 +12,17 @@ import java.util.ArrayList;
  * @author MSAUDI
  */
 public class Order {
-    private ArrayList<Item> orderItems;
+    private ArrayList<MenuItem> orderItems;
     
     
-    ArrayList<Item> getOrderItems(){
+    ArrayList<MenuItem> getOrderItems(){
         return orderItems;
     }
     public Order(){
         orderItems = new ArrayList<>();
     }
     
-    void addItem(Item i){
+    void addItem(MenuItem i){
         orderItems.add(i);
     }
     

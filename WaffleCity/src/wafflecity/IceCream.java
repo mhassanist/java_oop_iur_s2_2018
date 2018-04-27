@@ -9,9 +9,9 @@ package wafflecity;
  *
  * @author MSAUDI
  */
-public class IceCream extends Item{
+public class IceCream extends MenuItem{
     //TODO change 
-    String type;
+    String type; //biscuit | cup
 
     public String getType() {
         return type;

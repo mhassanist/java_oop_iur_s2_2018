@@ -6,11 +6,11 @@
 package wafflecity;
 
 /**
- *
+ *juice
  * @author MSAUDI
  */
-public class Juice extends Item{
-    String type;
+public class Juice extends MenuItem{
+    String type; //Fresh , Bottle , 
 
     public String getType() {
         return type;
