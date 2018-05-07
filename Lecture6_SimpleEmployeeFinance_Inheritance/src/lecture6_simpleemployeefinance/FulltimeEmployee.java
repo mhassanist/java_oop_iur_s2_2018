@@ -1,9 +1,9 @@
 
 package lecture6_simpleemployeefinance;
 
-//Subclass / child class 
+//Subclass / child class
 public class FulltimeEmployee extends Employee{
-       
+    
     private static double tax = 0.02;
     private  double basicSalary;
     private  int absenceDays;
@@ -23,6 +23,7 @@ public class FulltimeEmployee extends Employee{
     }
     public  void    addAbsenceDay (){
         absenceDays ++;
+        
         
     }
     @Override

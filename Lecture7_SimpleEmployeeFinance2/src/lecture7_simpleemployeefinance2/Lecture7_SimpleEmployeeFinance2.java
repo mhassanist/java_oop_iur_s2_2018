@@ -18,6 +18,12 @@ public class Lecture7_SimpleEmployeeFinance2 {
         e1.setName("Mohammed");
         e1.setEmail("m@yahoo.com");
         
+        FulltimeEmployee f7 = new FulltimeEmployee();
+        BaseEmployee b = new FulltimeEmployee();
+        BaseEmployee b2 = new ParttimeEmployee();
+        
+        
+        
         e1.setBasicSalary(2750);
         
         e1.addAbsenceDay();
@@ -57,7 +63,7 @@ public class Lecture7_SimpleEmployeeFinance2 {
         
         printEmployeeInfo(p2);
         printEmployeeInfo(e1);
-
+        
         //System.out.println("Yasser's Salary= " + p1.calculateSalary());
         
         //System.out.println("Omar's Salary= " + p2.calculateSalary());
@@ -67,6 +73,7 @@ public class Lecture7_SimpleEmployeeFinance2 {
     
     public static void printEmployeeInfo(BaseEmployee p){
         System.out.println(p.getEmployeeInfo());
+        
         
     }
     

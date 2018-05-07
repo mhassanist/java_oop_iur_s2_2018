@@ -47,5 +47,16 @@ public class Employee {
     public String getName(){
         return this.name;
     }
+
+    @Override
+    public String toString() {
+
+        String s = name + "-" + phoneNumber;
+        
+        return s;
+
+    }
+    
+    
     
 }

@@ -9,6 +9,9 @@ public class Lecture6_SimpleEmployeeFinance {
         e1.setEmail("m@yahoo.com");
         e1.setPhoneNumber("+9012780089");
         
+        
+        System.out.println(e1);
+        
         e1.setNationalId("154875466");
         
         e1.setBasicSalary(2750);
@@ -19,6 +22,8 @@ public class Lecture6_SimpleEmployeeFinance {
         
         e1.addBonus(100);
         e1.addBonus(50);
+        
+        
         
         double salary = e1.calculateSalary();
         System.out.println("Salary = " + salary);
@@ -31,7 +36,7 @@ public class Lecture6_SimpleEmployeeFinance {
         FulltimeEmployee e2 = new FulltimeEmployee();
         FulltimeEmployee e3 = new FulltimeEmployee("Abdulrahman", "a@abdurahman.com",1480);
         
-        
+                
         ParttimeEmployee p1 = new ParttimeEmployee();
         p1.setName("Yasser");
         p1.setEmail("yasser@yasser.com");
@@ -60,12 +65,17 @@ public class Lecture6_SimpleEmployeeFinance {
     }
     
     public static void printEmployeeInfo(Employee e){
+        
         System.out.println("Name: " + e.getName() );
         System.out.println("Email: " + e.getEmail());
         System.out.println("Phone Number: " + e.getPhoneNumber());
-        
         System.out.println("Salary: " + e.calculateSalary());
         
+        if(e instanceof ParttimeEmployee){
+            System.out.println("PART ");
+        }else  if(e instanceof FulltimeEmployee){
+            System.out.println("FULL ");
+        }
         
     }
     

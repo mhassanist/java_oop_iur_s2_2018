@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package wafflecity;
+package wafflecity.model;
 
 /**
- *juice
+ *
  * @author MSAUDI
  */
-public class Juice extends MenuItem{
-    String type; //Fresh , Bottle , 
-
+public class NormalWaffle extends BaseWaffle{
+    // every mix of gradient we give it trendy name 
+    // Icilimo, Lovers, Reddy , Banana .. custom Waffle
+    String type; 
     public String getType() {
         return type;
     }
